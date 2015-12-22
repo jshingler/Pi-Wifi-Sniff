@@ -11,7 +11,8 @@
 apply plugin: 'java'
 apply plugin: 'application'
 
-mainClassName = "Sniff2"
+// mainClassName = "Sniff2"
+mainClassName = "GetInterfaceHardwareAddress"
 //applicationDefaultJvmArgs = ["-Djava.library.path=linux"]
 run {
     systemProperty 'java.library.path', file( '/home/pi/workspace/sniff/linux' )
