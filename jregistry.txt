@@ -1,0 +1,52 @@
+
+Choosing 'wlan1' on your behalf:
+scanner[0 ] class=Payload         id= 0, loaded=false direct=true , scan=false bindings=0  []
+scanner[1 ] class=Ethernet        id= 1, loaded=false direct=true , scan=false bindings=0  []
+scanner[2 ] class=Ip4             id= 2, loaded=false direct=true , scan=false bindings=0  []
+scanner[3 ] class=Ip6             id= 3, loaded=false direct=true , scan=false bindings=0  []
+scanner[4 ] class=Tcp             id= 4, loaded=false direct=true , scan=false bindings=0  []
+scanner[5 ] class=Udp             id= 5, loaded=false direct=true , scan=false bindings=0  []
+scanner[6 ] class=IEEE802dot3     id= 6, loaded=false direct=true , scan=false bindings=0  []
+scanner[7 ] class=IEEE802dot2     id= 7, loaded=false direct=true , scan=false bindings=0  []
+scanner[8 ] class=IEEESnap        id= 8, loaded=false direct=true , scan=false bindings=0  []
+scanner[9 ] class=IEEE802dot1q    id= 9, loaded=false direct=true , scan=false bindings=0  []
+scanner[10] class=L2TP            id=10, loaded=false direct=true , scan=false bindings=0  []
+scanner[11] class=PPP             id=11, loaded=false direct=true , scan=false bindings=0  []
+scanner[12] class=Icmp            id=12, loaded=false direct=true , scan=false bindings=0  []
+scanner[13] class=Http            id=13, loaded=false direct=true , scan=false bindings=4  [WebImage,Html,Html,WebImage]
+scanner[14] class=Html            id=14, loaded=false direct=true , scan=false bindings=0  []
+scanner[15] class=WebImage        id=15, loaded=true  direct=false, scan=false bindings=0  []
+scanner[16] class=Arp             id=16, loaded=false direct=true , scan=false bindings=0  []
+scanner[17] class=Sip             id=17, loaded=false direct=true , scan=false bindings=0  []
+scanner[18] class=Sdp             id=18, loaded=true  direct=false, scan=false bindings=0  []
+scanner[20] class=SLL             id=20, loaded=false direct=true , scan=false bindings=0  []
+scanner[21] class=NullHeader      id=21, loaded=false direct=true , scan=false bindings=0  []
+scanner[32] class=Sctp            id=32, loaded=false direct=true , scan=false bindings=0  []
+scanner[33] class=SctpData        id=33, loaded=false direct=true , scan=false bindings=0  []
+scanner[34] class=SctpInit        id=34, loaded=false direct=true , scan=false bindings=0  []
+scanner[35] class=SctpInitAck     id=35, loaded=false direct=true , scan=false bindings=0  []
+scanner[36] class=SctpSack        id=36, loaded=false direct=true , scan=false bindings=0  []
+scanner[37] class=SctpHeartbeat   id=37, loaded=false direct=true , scan=false bindings=0  []
+scanner[38] class=SctpHeartbeatAck id=38, loaded=true  direct=false, scan=false bindings=0  []
+scanner[39] class=SctpAbort       id=39, loaded=false direct=true , scan=false bindings=0  []
+scanner[40] class=SctpShutdown    id=40, loaded=false direct=true , scan=false bindings=0  []
+scanner[41] class=SctpShutdownAck id=41, loaded=false direct=true , scan=false bindings=0  []
+scanner[42] class=SctpError       id=42, loaded=false direct=true , scan=false bindings=0  []
+scanner[43] class=SctpCookie      id=43, loaded=false direct=true , scan=false bindings=0  []
+scanner[44] class=SctpCookieAck   id=44, loaded=false direct=true , scan=false bindings=0  []
+scanner[45] class=SctpECNE        id=45, loaded=false direct=true , scan=false bindings=0  []
+scanner[46] class=SctpCWR         id=46, loaded=false direct=true , scan=false bindings=0  []
+scanner[47] class=SctpShutdownComplete id=47, loaded=false direct=true , scan=false bindings=0  []
+scanner[48] class=Rtp             id=48, loaded=false direct=true , scan=false bindings=0  []
+scanner[49] class=RtcpSenderReport id=49, loaded=false direct=true , scan=false bindings=0  []
+scanner[50] class=RtcpReceiverReport id=50, loaded=false direct=true , scan=false bindings=0  []
+scanner[51] class=RtcpSDES        id=51, loaded=false direct=true , scan=false bindings=0  []
+scanner[52] class=RtcpBye         id=52, loaded=false direct=true , scan=false bindings=0  []
+scanner[53] class=RtcpApp         id=53, loaded=false direct=true , scan=false bindings=0  []
+libpcap::NULL(0)                  => header::NullHeader.class(21)
+libpcap::EN10MB(1)                => header::Ethernet.class(1)
+libpcap::IEEE802(6)               => header::IEEE802dot3.class(6)
+libpcap::PPP(9)                   => header::PPP.class(11)
+libpcap::LINUX_SLL(113)           => header::SLL.class(20)
+Resolver IEEE_OUI_PREFIX: cache[count=0], timeout[count=0, positive=157680000000, negative=0],
+Resolver IP: cache[count=0], timeout[count=0, positive=1400000000, negative=9000000],
